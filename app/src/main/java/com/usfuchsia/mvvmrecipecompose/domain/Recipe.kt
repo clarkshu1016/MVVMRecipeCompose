@@ -6,8 +6,6 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class Recipe(
-//    @SerialName("cooking_instructions")
-//    val cookingInstructions: Any,
     @SerialName("date_added")
     val dateAdded: String,
     @SerialName("date_updated")
